@@ -1,0 +1,88 @@
+
+#wrapper {
+	width: auto;
+	margin: auto;
+	padding:0px;
+} 
+
+/*The header is inside the divHeader so that the color of the background can expand all the way*/
+#divHeader{
+	margin: auto -10px auto -10px; /*Negative value to cover the whole screen left and right with the background color*/
+	padding:0px;
+	background-color:#041431;
+}
+
+
+#divContainer{
+	margin: auto -10px auto -10px; /*Negative value to cover the whole screen left and right with the background color*/
+	padding:0px 0px 0px 0px; /*Dimensions of the picture*/
+	background-color:#073279;
+	box-shadow: 0px 10px 10px #888888;
+	height:auto;
+}
+
+#content{
+	clear:both;
+	margin: auto;
+	padding:0px;
+	width:960px;
+}
+
+#divProducts{
+	clear:both;
+	width:auto;
+	margin:auto;
+	
+}
+
+
+footer {
+	clear: both;
+	text-align: center;
+	padding: 10px;
+	background-color:gray;
+	margin-top:0px;
+	width:auto;
+}
+
+#divFooter{
+	clear:both;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+/*causes the nav header to be at the right and the margin with the top*/
+#divHeader ul {
+	float:right;
+	text-align:center;
+	margin:auto auto auto auto;
+}
+
+/*This is what causes all the links to float next to each other*/
+#divHeader li { 
+	margin:auto;
+	text-align:center;
+	display: inline-block;
+	border-bottom: 2px ridge white;
+}
+
+
+body {
+background-color:lightgray;
+	font-family:Verdana, Arial, sans-serif;
+	margin-top:auto;
+}
+
+/*auto margin will cover the whole screen.*/
+
+
+	  
+/*The center header where the image and the nav header is*/
+header{
+	margin:auto;
+	width:960px;
+	text-align:left;
+}
+
